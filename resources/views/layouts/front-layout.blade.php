@@ -48,25 +48,7 @@
                 <!--=== Start Atribute Navigation ===-->
                 <div class="attr-nav">
                     <ul>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i
-                                    class="ion-ios-cart"></i> <span class="badge">3</span> </a>
-                            <ul class="dropdown-menu cart-list">
-                                <li> <a href="#" class="photo"><img src="assets/images/thumb01.jpg"
-                                            class="cart-thumb" alt="" /></a>
-                                    <h6><a href="#">Casual T-shirt </a></h6>
-                                    <p><span class="price">$25.99</span></p>
-                                </li>
-                                <li> <a href="#" class="photo"><img src="assets/images/thumb02.jpg"
-                                            class="cart-thumb" alt="" /></a>
-                                    <h6><a href="#">Woman Top</a></h6>
-                                    <p><span class="price">$15.99</span></p>
-                                </li>
-                                <li class="total"><span class="pull-left"><strong>Total</strong></span> <span
-                                        class="pull-right">: $35.99</span> </li>
-                                <li><a href="#"
-                                        class="btn btn-default btn-dark btn-block remove-margin">Checkout</a> </li>
-                            </ul>
-                        </li>
+
                         <li class="search"><a href="#" id="search-button"><i class="ion-android-search"></i></a>
                         </li>
                     </ul>
@@ -78,8 +60,9 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i
                             class="eicon ion-android-menu"></i> </button>
                     <div class="logo"> <a href="index.html"> <img class="logo logo-display"
-                                src="assets/images/logo-white.png" alt=""> <img class="logo logo-scrolled"
-                                src="assets/images/logo-black.png" alt=""> </a> </div>
+                                src="{{ asset('front-theme/assets/images/logo.jpg') }}" alt=""> <img
+                                class="logo logo-scrolled" src="{{ asset('front-theme/assets/images/logo.jpg') }}"
+                                alt=""> </a> </div>
                 </div>
                 <!--=== End Header Navigation ===-->
 
@@ -88,180 +71,15 @@
                     <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
                         <li class="dropdown megamenu-fw"> <a href="index.html" class="dropdown-toggle"
                                 data-toggle="dropdown">Home</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Home Pages</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="index.html">Home Default</a></li>
-                                                    <li><a href="digital-agency.html">Home Digital Agency</a></li>
-                                                    <li><a href="creative-agency.html">Home Creative Agency</a></li>
-                                                    <li><a href="home-startup.html">Home Startup</a></li>
-                                                    <li><a href="home-minimal.html">Home Minimal</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!--=== end col-3 ===-->
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Home Pages</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="home-app-landing.html">Home App Landing</a></li>
-                                                    <li><a href="home-architecture.html">Home Architecture</a></li>
-                                                    <li><a href="home-photography.html">Home Photography</a></li>
-                                                    <li><a href="home-resume.html">Home Resume</a></li>
-                                                    <li><a href="home-fitness.html">Home Fitness</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!--=== end col-3 ===-->
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Home Pages</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="home-portfolio.html">Home Portfolio</a></li>
-                                                    <li><a href="home-restaurant.html">Home Restaurant</a></li>
-                                                    <li><a href="home-fashion.html">Home Fashion</a></li>
-                                                    <li><a href="home-onepage.html">Home One Page</a></li>
-                                                    <li><a href="home-corporate-business.html">Home Corporate
-                                                            Business</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--=== end row ===-->
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                data-toggle="dropdown">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="about-creative.html">About - Creative</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="404-page.html">404 Page</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                <li><a href="career.html">Careers</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                data-toggle="dropdown">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-standard.html">Blog Standard</a></li>
-                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                                <li><a href="blog-carousel.html">Blog Carousel</a></li>
-                                <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
-                                <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#" class="dropdown-toggle"
-                                data-toggle="dropdown">Portfolio</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                        data-toggle="dropdown">Grid</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="grid-2col.html">Two Columns</a></li>
-                                        <li><a href="grid-3col.html">Three Columns</a></li>
-                                        <li><a href="grid-4col.html">Four Columns</a></li>
-                                        <li><a href="grid-fullwidth.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                        data-toggle="dropdown">Masonry</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="masonry-2col.html">Two Columns</a></li>
-                                        <li><a href="masonry-3col.html">Three Columns</a></li>
-                                        <li><a href="masonry-4col.html">Four Columns</a></li>
-                                        <li><a href="masonry-fullwidth.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle"
-                                        data-toggle="dropdown">Grid - Space</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="grid-space-2col.html">Two Columns</a></li>
-                                        <li><a href="grid-space-3col.html">Three Columns</a></li>
-                                        <li><a href="grid-space-4col.html">Four Columns</a></li>
-                                        <li><a href="grid-space-fullwidth.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                        data-toggle="dropdown">Masonry - Space</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="masonry-space-2col.html">Two Columns</a></li>
-                                        <li><a href="masonry-space-3col.html">Three Columns</a></li>
-                                        <li><a href="masonry-space-4col.html">Four Columns</a></li>
-                                        <li><a href="masonry-space-fullwidth.html">Full Width</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle"
-                                        data-toggle="dropdown">Single Portfolio</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="single-portfolio-one.html">Single Portfolio One</a></li>
-                                        <li><a href="single-portfolio-two.html">Single Portfolio Two</a></li>
-                                        <li><a href="single-portfolio-three.html">Single Portfolio Three</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a href="#" class="dropdown-toggle"
-                                data-toggle="dropdown">Shop</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-product.html">Single Product</a></li>
-                                <li><a href="shop-cart.html">Shop Cart</a></li>
-                                <li><a href="shop-checkout.html">Shop Checkout</a></li>
-                            </ul>
-                        </li>
                         <li class="dropdown megamenu-fw"> <a href="#" class="dropdown-toggle"
-                                data-toggle="dropdown">Elements</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Element</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="accordions.html">Accordions</a></li>
-                                                    <li><a href="buttons.html">Buttons</a></li>
-                                                    <li><a href="boxed-icons.html">Boxed Icons</a></li>
-                                                    <li><a href="contact-form.html">Contact Forms</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!--=== end col-4 ===-->
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Element</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="google-maps.html">Google Maps</a></li>
-                                                    <li><a href="progress-bar.html">Progress Bars</a></li>
-                                                    <li><a href="pricing-table.html">Pricing Tables</a></li>
-                                                    <li><a href="sliders.html">Sliders</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!--=== end col-4 ===-->
-                                        <div class="col-menu col-md-4">
-                                            <h6 class="title">Element</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="tabs.html">Tabs</a></li>
-                                                    <li><a href="theme-icons.html">Theme Icons</a></li>
-                                                    <li><a href="typography.html">Typography</a></li>
-                                                    <li><a href="team-member.html">Team Members</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--=== end row ===-->
-                                </li>
-                            </ul>
-                        </li>
+                                data-toggle="dropdown">About Us</a>
+                        <li class="dropdown megamenu-fw"> <a href="index.html" class="dropdown-toggle"
+                                data-toggle="dropdown">Career</a>
+                        <li class="dropdown megamenu-fw"> <a href="index.html" class="dropdown-toggle"
+                                data-toggle="dropdown">Media</a>
+
+
+
                     </ul>
                 </div>
                 <!--=== /.navbar-collapse ===-->
@@ -277,13 +95,14 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="widget widget-text">
                                 <div class="logo logo-footer"><a href="index.html"> <img class="logo logo-display"
-                                            src="assets/images/logo-footer-light.png" alt=""></a> </div>
+                                            src="{{ asset('front-theme/assets/images/logo.jpg') }}" alt=""></a>
+                                </div>
                                 <div class="widget-links">
                                     <ul>
-                                        <li>44 Shirley Ave. West Chicago, IL 60185</li>
-                                        <li>(001) 7878 234 564</li>
-                                        <li>hello@gmail.com</li>
-                                        <li>www.grandy.com</li>
+                                        <li>Tbilisi, Chirnakhuli Street 2</li>
+                                        <li>0322407171</li>
+                                        <li>info@trd.ge</li>
+                                        <li>T&R Website</li>
                                     </ul>
                                 </div>
                             </div>
@@ -294,35 +113,13 @@
                                 <ul>
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Media</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-2">
-                            <div class="widget widget-links">
-                                <h5 class="widget-title">Legal</h5>
-                                <ul>
-                                    <li><a href="#">Privacy Policies</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="widget widget-text">
-                                <h5 class="widget-title">Popular Tags</h5>
-                                <div class="popular-tags"> <a href="#">Minimal</a> <a href="#">One
-                                        Page</a> <a href="#">Design</a> <a href="#">Creative</a> <a
-                                        href="#">Apps</a>
-                                    <a href="#">Development</a> <a href="#">Tips</a> <a
-                                        href="#">Responsive</a>
-                                </div>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -339,7 +136,7 @@
                             </ul>
                         </div>
                         <div class="col-md-6 col-xs-12">
-                            <div class="copy-right text-right">© 2017 Grandy. All rights reserved</div>
+                            <div class="copy-right text-right">© 2023 T&R. All rights reserved</div>
                         </div>
                     </div>
                 </div>

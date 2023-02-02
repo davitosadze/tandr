@@ -6,35 +6,35 @@
         <div class="default-slider slick">
             <div class="slide">
                 <div class="slide-img parallax-effect"
-                    style="background:url(assets/images/slides/home-bg-3.jpg) center center / cover scroll no-repeat;"></div>
+                    style="background:url(assets/images/slides/home-bg-5.jpg) center center / cover scroll no-repeat;"></div>
                 <div class="hero-text-wrap">
                     <div class="hero-text white-color fade-left-text">
                         <div class="container">
                             <div class="white-color text-left">
-                                <h1 class="white-color font-700 text-uppercase">We Build <br>Moment of Magic</h1>
-                                <h5 class="white-color">We are New York and Chichago digital agency for digital strategy.
+                                <h1 class="white-color font-700 text-uppercase">სადისტრიბუციო კომპანია "თ&რ დისტრიბუშენ"</h1>
+                                <h5 class="white-color">ჩვენ ვაერთიანებთ თბილისსა და საქართველოს რეგიონებს.
                                 </h5>
-                                <p class="text-left mt-30"><a class="btn btn-color btn-md btn-default remove-margin">Request
-                                        a Quote</a> </p>
+                                <p class="text-left mt-30"><a
+                                        class="btn btn-outline-white btn-md btn-default remove-margin">Join Us</a> </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slide">
-
                 <div class="slide-img parallax-effect"
-                    style="background:url(assets/images/slides/home-bg-4.jpg) center center / cover scroll no-repeat;">
+                    style="background:url(assets/images/slides/home-bg-5.jpg) center center / cover scroll no-repeat;">
                 </div>
                 <div class="hero-text-wrap">
                     <div class="hero-text white-color fade-left-text">
                         <div class="container">
                             <div class="white-color text-left">
-                                <h1 class="white-color font-700 text-uppercase">Experience Beautiful</h1>
-                                <h5 class="white-color">We provide a rich suite of creative and technical services.</h5>
+                                <h1 class="white-color font-700 text-uppercase">სადისტრიბუციო კომპანია "თ&რ დისტრიბუშენ"
+                                </h1>
+                                <h5 class="white-color">ჩვენ ვაერთიანებთ თბილისსა და საქართველოს რეგიონებს.
+                                </h5>
                                 <p class="text-left mt-30"><a
-                                        class="btn btn-outline-white btn-md btn-default remove-margin">Our Work</a> <a
-                                        class="btn btn-dark btn-md btn-default">About US</a> </p>
+                                        class="btn btn-outline-white btn-md btn-default remove-margin">Join Us</a> </p>
                             </div>
                         </div>
                     </div>
@@ -46,45 +46,37 @@
 
     <!--=== Hero Slider End ===-->
 
-    <!--=== Who We Are Start ===-->
-    <section class="p-0">
-        <div class="container-fluid">
-            <div class="row row-flex">
-                <div class="col-md-4">
-                    <div class="col-inner spacer dark-bg">
-                        <div class="text-center white-color wow fadeInUp" data-wow-delay="0.1s"> <i
-                                class="icon-focus font-40px white-icon"></i>
-                            <h5 class="text-uppercase mt-40">Branding</h5>
-                            <p>Duis aliquet ut enim nec pulvinar Nam ultrices massa sit amet ornare elementum erat lacus
-                                consectetur metus posuere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-inner spacer darken-bg">
-                        <div class="text-center white-color wow fadeInUp" data-wow-delay="0.2s"> <i
-                                class="icon-megaphone font-40px white-icon"></i>
-                            <h5 class="text-uppercase mt-40">Marketing</h5>
-                            <p>Duis aliquet ut enim nec pulvinar Nam ultrices massa sit amet ornare elementum erat lacus
-                                consectetur metus posuere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-inner spacer d-dark-bg">
-                        <div class="text-center white-color wow fadeInUp" data-wow-delay="0.3s"> <i
-                                class="icon-camera font-40px white-icon"></i>
-                            <h5 class="text-uppercase mt-40">Photography</h5>
-                            <p>Duis aliquet ut enim nec pulvinar Nam ultrices massa sit amet ornare elementum erat lacus
-                                consectetur metus posuere.</p>
-                        </div>
-                    </div>
+    <!--=== Who We Are End ===-->
+    <!--=== Partners Start ======-->
+    <section class="white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="client-slider slick">
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/1.png"
+                            alt="01" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/2.png"
+                            alt="02" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/3.png"
+                            alt="03" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/4.png"
+                            alt="04" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/5.png"
+                            alt="05" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/6.png"
+                            alt="06" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/7.png"
+                            alt="07" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/8.png"
+                            alt="08" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/9.png"
+                            alt="09" /> </div>
+                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/10.png"
+                            alt="10" /> </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--=== Who We Are End ===-->
-
+    <!--=== Partners End ======-->
 
     <!--=== Portfolio Start ===-->
     <section class="white-bg dark-block pattern-bg-light">
@@ -98,25 +90,7 @@
 
             <div class="row">
 
-                <div class="col-md-12">
-                    <div id="grandy-folio-filter" class="cbp-l-filters-alignCenter text-sm-center mt-60 mb-100">
-                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item dark">
-                            All
-                        </div>
-                        <div data-filter=".branding" class="cbp-filter-item">
-                            Branding
-                        </div>
-                        <div data-filter=".print" class="cbp-filter-item">
-                            Print Design
-                        </div>
-                        <div data-filter=".ui-ux" class="cbp-filter-item">
-                            UI/UX Design
-                        </div>
-                        <div data-filter=".development" class="cbp-filter-item">
-                            Development
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="col-md-12">
 
@@ -124,7 +98,7 @@
                         <div class="cbp-item branding col-md-6 col-sm-6 with-spacing">
                             <div class="portfolio gallery-image-hover text-center">
                                 <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/12.jpg" alt="">
+                                <img src="assets/images/portfolio/grid/12.jpeg" alt="">
                                 <div class="portfolio-wrap">
                                     <div class="portfolio-description">
                                         <h3 class="portfolio-title">Studio Niccolai</h3>
@@ -134,66 +108,16 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item print ui-ux col-md-6 col-sm-6 with-spacing">
-                            <div class="portfolio gallery-image-hover text-center">
-                                <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/14.jpg" alt="">
-                                <div class="portfolio-wrap">
-                                    <div class="portfolio-description">
-                                        <h3 class="portfolio-title">Thenordic</h3>
-                                        <a href="single-portfolio.html" class="links">Print Design</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="cbp-item print development col-md-6 col-sm-6 with-spacing">
-                            <div class="portfolio gallery-image-hover text-center">
-                                <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/16.jpg" alt="">
-                                <div class="portfolio-wrap">
-                                    <div class="portfolio-description">
-                                        <h3 class="portfolio-title">Coffee & Tea</h3>
-                                        <a href="single-portfolio.html" class="links">Development</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="cbp-item branding col-md-6 col-sm-6 with-spacing">
                             <div class="portfolio gallery-image-hover text-center">
                                 <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/17.jpg" alt="">
+                                <img src="assets/images/portfolio/grid/14.jpeg" alt="">
                                 <div class="portfolio-wrap">
                                     <div class="portfolio-description">
                                         <h3 class="portfolio-title">Fach Bureau</h3>
                                         <a href="single-portfolio.html" class="links">Branding</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item branding ui-ux col-md-6 col-sm-6 with-spacing">
-                            <div class="portfolio gallery-image-hover text-center">
-                                <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/19.jpg" alt="">
-                                <div class="portfolio-wrap">
-                                    <div class="portfolio-description">
-                                        <h3 class="portfolio-title">Bicker Janna</h3>
-                                        <a href="single-portfolio.html" class="links">Branding</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item print development col-md-6 col-sm-6 with-spacing">
-                            <div class="portfolio gallery-image-hover text-center">
-                                <div class="folio-overlay"></div>
-                                <img src="assets/images/portfolio/grid/20.jpg" alt="">
-                                <div class="portfolio-wrap">
-                                    <div class="portfolio-description">
-                                        <h3 class="portfolio-title">Collection </h3>
-                                        <a href="single-portfolio.html" class="links">Print, Development</a>
                                     </div>
                                 </div>
                             </div>
@@ -393,43 +317,14 @@
     <!--=== Testimonails End ===-->
 
 
-    <!--=== Clients Start ======-->
-    <section class="white-bg">
-        <div class="container">
-            <div class="row">
-                <div class="client-slider slick">
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/1.png"
-                            alt="01" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/2.png"
-                            alt="02" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/3.png"
-                            alt="03" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/4.png"
-                            alt="04" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/5.png"
-                            alt="05" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/6.png"
-                            alt="06" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/7.png"
-                            alt="07" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/8.png"
-                            alt="08" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/9.png"
-                            alt="09" /> </div>
-                    <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/10.png"
-                            alt="10" /> </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--=== Clients End ======-->
+
 
     <!--=== Blogs Start ===-->
     <section>
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 section-heading">
-                    <h2>Our Blogs</h2>
+                    <h2>Media</h2>
                     <hr class="dark-bg">
                 </div>
             </div>
